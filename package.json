@@ -1,5 +1,5 @@
 {
-  "name": "rreactlib",
+  "name": "@rintsin/reactlib",
   "version": "0.0.0",
   "private": false,
   "description": "React TypeScript component library boilerplate",
