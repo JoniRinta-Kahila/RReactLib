@@ -12,22 +12,20 @@ export interface CollapsibleProps {
   defaultOpen?: boolean;
 }
 
-export const Collapsible: React.FC<CollapsibleProps> = (
-  {
-    children,
-    label,
-    labelColor,
-    labelBackground,
-    containerClassName,
-    containerStyle,
-    contentColor,
-    contentBackground,
-    defaultOpen = false,
-  }
-) => {
+export const Collapsible: React.FC<CollapsibleProps> = ({
+  children,
+  label,
+  labelColor,
+  labelBackground,
+  containerClassName,
+  containerStyle,
+  contentColor,
+  contentBackground,
+  defaultOpen = false,
+}) => {
   const [open, setOpen] = useState<boolean>(defaultOpen);
-  const btnRef: React.MutableRefObject<HTMLButtonElement|null> = useRef(null);
-  const contentRef: React.MutableRefObject<HTMLDivElement|null> = useRef(null);
+  const btnRef: React.MutableRefObject<HTMLButtonElement | null> = useRef(null);
+  const contentRef: React.MutableRefObject<HTMLDivElement | null> = useRef(null);
 
   useEffect(() => {
     if (btnRef.current && contentRef.current) {
@@ -42,16 +40,14 @@ export const Collapsible: React.FC<CollapsibleProps> = (
         <button
           style={{
             color: labelColor,
-            background: labelBackground
+            background: labelBackground,
           }}
           ref={btnRef}
           className='collapsible-toggle'
           onClick={() => setOpen(!open)}
           data-testid='input-element'
         >
-          {
-            label
-          }
+          {label}
         </button>
         <div
           className='collapsible-content'
@@ -62,11 +58,9 @@ export const Collapsible: React.FC<CollapsibleProps> = (
             background: contentBackground,
           }}
         >
-          {
-            children
-          }
+          {children}
         </div>
       </div>
     </div>
   );
-}
+};
