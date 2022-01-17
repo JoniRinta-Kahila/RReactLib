@@ -3,16 +3,9 @@ import { storiesOf } from '@storybook/react';
 import { Collapsible } from './Collapsible';
 
 storiesOf('collapsible', module)
-  .add('default', () => (
-    <Collapsible>
-    </Collapsible>
-  ))
+  .add('default', () => <Collapsible></Collapsible>)
   .add('Example-1', () => (
-    <Collapsible
-      label='Example'
-      labelColor='"fff'
-      labelBackground='darkgrey'
-    >
+    <Collapsible label='Example' labelColor='"fff' labelBackground='darkgrey'>
       <div>
         <p>asd</p>
         <p>kek</p>
@@ -23,9 +16,7 @@ storiesOf('collapsible', module)
   ))
   .add('Example-2', () => (
     <>
-      <Collapsible
-        label='Collapsible-1'
-      >
+      <Collapsible label='Collapsible-1'>
         <div>
           <p>asd</p>
           <p>kek</p>
@@ -33,9 +24,7 @@ storiesOf('collapsible', module)
           <p>bar</p>
         </div>
       </Collapsible>
-      <Collapsible
-        label='Collapsible-2'
-      >
+      <Collapsible label='Collapsible-2'>
         <div>
           <p>asd</p>
           <p>kek</p>
@@ -43,10 +32,7 @@ storiesOf('collapsible', module)
           <p>bar</p>
         </div>
       </Collapsible>
-      <Collapsible
-        label='Collapsible-3'
-        defaultOpen
-      >
+      <Collapsible label='Collapsible-3' defaultOpen>
         <div>
           <p>asd</p>
           <p>kek</p>
@@ -55,4 +41,4 @@ storiesOf('collapsible', module)
         </div>
       </Collapsible>
     </>
-  ))
+  ));
