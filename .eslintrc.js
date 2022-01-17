@@ -44,7 +44,7 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': rules.OFF,
     '@typescript-eslint/explicit-member-accessibility': rules.OFF,
     '@typescript-eslint/no-non-null-assertion': rules.OFF,
-    '@typescript-eslint/no-unused-vars': rules.OFF,
+    '@typescript-eslint/no-unused-vars': rules.WARN,
     '@typescript-eslint/array-type': rules.OFF,
     '@typescript-eslint/no-explicit-any': rules.OFF,
     '@typescript-eslint/no-empty-interface': rules.OFF,
