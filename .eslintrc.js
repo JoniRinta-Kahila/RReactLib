@@ -56,6 +56,7 @@ module.exports = {
     'react-hooks/rules-of-hooks': rules.ON,
     'react-hooks/exhaustive-deps': rules.WARN,
     'prefer-spread': rules.WARN,
+    'no-unused-vars': rules.OFF,
   },
   settings: {
     react: {
