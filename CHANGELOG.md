@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/JoniRinta-Kahila/RReactLib/compare/v1.0.0...v1.1.0) (2022-01-19)
+
+
+### Features
+
+* add sosical media buttons facebook, instagram, whatsapp ([d60ffed](https://github.com/JoniRinta-Kahila/RReactLib/commit/d60ffedd3d75571a2163a98806fe93e7acd00390))
+
 ## 1.0.0 (2022-01-17)
 
 
