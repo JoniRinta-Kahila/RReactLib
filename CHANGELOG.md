@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/JoniRinta-Kahila/RReactLib/compare/v1.1.0...v1.2.0) (2022-01-19)
+
+
+### Features
+
+* docs jonirinta-kahila.github.io/rreactlib ([a47d2a7](https://github.com/JoniRinta-Kahila/RReactLib/commit/a47d2a73e2466cc2aa55617cd10e43bca86e1443))
+
 ## [1.1.0](https://github.com/JoniRinta-Kahila/RReactLib/compare/v1.0.0...v1.1.0) (2022-01-19)
 
 
